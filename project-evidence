@@ -1,0 +1,13 @@
+Project Evidence
+
+WAN and LAN Interfaces
+![WAN and LAN dashboard](screenshots/01-wan-lan-dashboard.png)
+
+DMZ Interface
+![DMZ configuration](screenshots/02-dmz-interface.png)
+
+DNS Verification
+![DNS lookup results](screenshots/05-nslookup-test.png)
+
+SSH Remote Access
+![Successful SSH connection](screenshots/07-ssh-connection.png)
