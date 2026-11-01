@@ -1,94 +1,73 @@
+
 # pfSense Firewall Configuration and Network Segmentation
 
 ## Project Overview
-
-This project was completed as part of a hands-on network security lab. The objective was to configure firewall interfaces using pfSense and verify network connectivity and remote access.
-
-The lab involved configuring WAN, LAN, and DMZ interfaces, testing connectivity, configuring split DNS, and enabling secure remote access through SSH.
+This academic lab focused on configuring and verifying firewall interfaces using pfSense in a virtualized network environment. I configured WAN, LAN, and DMZ interfaces, tested network connectivity, configured split DNS, and enabled SSH remote access.
 
 ## Tools and Technologies
-
-- pfSense Firewall
-- Virtualized Windows Environment
-- TCP/IP Networking
-- DNS and DNS Resolver
-- SSH (Secure Shell)
-- ICMP and Ping
-- nslookup
+- pfSense
+- Virtual Machines
+- TCP/IP
+- ICMP / Ping
+- DNS / nslookup
+- SSH
 
 ## Project Objectives
+- Configure WAN and LAN firewall interfaces.
+- Add a DMZ interface.
+- Verify connectivity using ICMP tests.
+- Configure split DNS with DNS Resolver host overrides.
+- Verify DNS resolution with nslookup.
+- Enable and test SSH remote access.
 
-1. Plan and configure WAN and LAN firewall interfaces.
-2. Configure a DMZ interface for network segmentation.
-3. Verify network connectivity using ICMP requests.
-4. Configure split DNS using host overrides.
-5. Verify DNS resolution using nslookup.
-6. Enable and test SSH remote access to pfSense.
+## Configuration and Testing
 
-## Implementation
+### 1. WAN and LAN Interfaces
+Configured the WAN and LAN interfaces and verified their status on the pfSense dashboard.
 
-### 1. WAN and LAN Configuration
+![WAN and LAN dashboard](screenshots/01-wan-lan-dashboard.png)
 
-Planned the physical configuration of the firewall and configured WAN and LAN interfaces using the pfSense web interface.
+### 2. DMZ Interface
+Configured a DMZ interface to support network segmentation and verified its status.
 
-Verified that both interfaces appeared on the pfSense dashboard.
+![DMZ interface](screenshots/02-dmz-interface.png)
 
-### 2. DMZ Configuration
+### 3. Connectivity Testing
+Used ICMP requests to verify connectivity between configured network interfaces and the upstream gateway.
 
-Configured a DMZ interface in pfSense as part of a segmented network environment.
-
-Verified that the DMZ interface was active and accessible.
-
-### 3. Network Connectivity Testing
-
-Performed ICMP tests to verify connectivity to the upstream gateway, WAN interface, and DMZ interface.
+![Connectivity test](screenshots/03-connectivity-test.png)
 
 ### 4. Split DNS Configuration
+Created DNS Resolver host overrides for internal systems and verified name resolution using nslookup.
 
-Configured DNS Resolver host overrides for internal systems.
+![DNS host overrides](screenshots/04-dns-host-overrides.png)
 
-Used nslookup to verify that the configured hostnames resolved to their intended IP addresses.
+![DNS verification](screenshots/05-nslookup-test.png)
 
 ### 5. SSH Remote Access
+Enabled SSH on pfSense and verified a successful remote connection.
 
-Enabled SSH access in pfSense and successfully established an SSH connection to the firewall.
+![SSH settings](screenshots/06-ssh-configuration.png)
 
-## Project Results
+![SSH connection](screenshots/07-ssh-connection.png)
 
-- Successfully configured WAN, LAN, and DMZ interfaces.
-- Verified connectivity using ICMP tests.
-- Configured DNS host overrides and confirmed name resolution.
-- Enabled SSH and verified remote connectivity.
+## Results
+- Configured WAN, LAN, and DMZ interfaces.
+- Verified network connectivity using ICMP.
+- Successfully resolved configured DNS hostnames.
+- Established SSH access to pfSense.
 
 ## Skills Demonstrated
-
 - Firewall administration
 - Network interface configuration
 - Network segmentation concepts
-- DNS configuration and troubleshooting
-- Remote system administration
-- Network connectivity testing
+- DNS troubleshooting
+- SSH remote administration
+- Network connectivity verification
 
-## Key Takeaways
-
-This lab helped me develop practical experience configuring and verifying firewall interfaces. It also reinforced my understanding of network segmentation, DNS resolution, and secure remote administration.
+## What I Learned
+This lab strengthened my understanding of how firewall interfaces, DNS, and remote access work together in a network environment. It also gave me hands-on experience verifying configurations and troubleshooting connectivity.
 
 ## Project Context
-
-This project was completed as an academic hands-on lab for *Network Security, Firewalls, and VPNs*. The screenshots document the configuration and verification tasks performed in the lab.
-
-
-
-## Project Evidence
-
-### WAN and LAN Configuration
-Screenshot demonstrating configured WAN and LAN interfaces.
-
-### DMZ Configuration
-Screenshot showing the configured DMZ interface.
-
-### DNS Verification
-Screenshot showing successful DNS resolution using nslookup.
-
-### SSH Remote Access
-Screenshot demonstrating successful SSH access to pfSense.
+Completed as an academic hands-on lab for Network Security, Firewalls, and VPNs.
+  
