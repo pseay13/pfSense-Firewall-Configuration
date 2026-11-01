@@ -76,3 +76,19 @@ This lab helped me develop practical experience configuring and verifying firewa
 ## Project Context
 
 This project was completed as an academic hands-on lab for *Network Security, Firewalls, and VPNs*. The screenshots document the configuration and verification tasks performed in the lab.
+
+
+
+## Project Evidence
+
+### WAN and LAN Configuration
+Screenshot demonstrating configured WAN and LAN interfaces.
+
+### DMZ Configuration
+Screenshot showing the configured DMZ interface.
+
+### DNS Verification
+Screenshot showing successful DNS resolution using nslookup.
+
+### SSH Remote Access
+Screenshot demonstrating successful SSH access to pfSense.
